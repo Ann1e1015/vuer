@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org/",
+      "access": true
+    },
+    "bootstrap": {
+      "hoist": true
+    }
+  }
+}
